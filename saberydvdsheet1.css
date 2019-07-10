@@ -1,0 +1,81 @@
+body {
+background-color: #000000;
+color: #FFFFFF;
+text-align: center;
+font-family: "Trebuchet MS", sans-serif;
+}
+
+h1 {
+font-family: "Trebuchet MS", sans-serif;
+text-align: center;
+}
+
+address {
+margin-top: 1em;
+padding-top: 1em;
+border-top: thin solid;
+}
+
+li {
+  display: inline;
+}
+
+li a:link, a:visited {
+  color: #FFFFFF;
+  background-color: #000000;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 14px 25px;
+}
+
+.skullboi {
+align: center;
+width: 512px;
+height: 381px;
+}
+
+img {
+align: center;
+width: auto;
+height: auto;
+}
+
+
+li a:hover:not(.active4) {
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 14px 25px;
+}
+
+.active1 {
+  color: #FFFFFF !important;
+  background-color: #1bcc00 !important;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 14px 25px;
+}
+
+
+.button {
+  background-color: #FFFFFF;
+  border: 2px solid #1bcc00;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+background-color: #1bcc00;
+color: #FFFFFF;
+}
