@@ -16,6 +16,10 @@ padding-top: 1em;
 border-top: thin solid;
 }
 
+img {
+align: middle;
+}
+
 li {
   display: inline;
 }
