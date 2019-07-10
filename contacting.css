@@ -10,6 +10,10 @@ font-family: "Trebuchet MS", sans-serif;
 text-align: center;
 }
 
+img {
+ align: middle;
+}
+
 address {
 margin-top: 1em;
 padding-top: 1em;
