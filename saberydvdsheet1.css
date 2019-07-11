@@ -35,10 +35,10 @@ width: 512px;
 height: 381px;
 }
 
-img {
+#character {
 align: center;
-width: auto;
-height: auto;
+width: 25% auto;
+height: 25% auto;
 }
 
 
@@ -60,22 +60,22 @@ li a:hover:not(.active4) {
   padding: 14px 25px;
 }
 
-
-.button {
-  background-color: #FFFFFF;
-  border: 2px solid #1bcc00;
-  color: #000000;
-  padding: 15px 32px;
+.switch {
+  background-color:#000000
+  border: none;
+  color: white;
+  padding: 16px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  -webkit-transition-duration: 0.4s; /* Safari */
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 
-.button:hover {
-background-color: #1bcc00;
-color: #FFFFFF;
+.switch:hover {
+  background-color: #FFFFFF;
+  color: #000000;
 }
