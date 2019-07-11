@@ -16,6 +16,10 @@ padding-top: 1em;
 border-top: thin solid;
 }
 
+p {
+  max-width: 80%;
+}
+
 li {
   display: inline;
 }
